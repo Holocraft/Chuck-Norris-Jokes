@@ -1,0 +1,22 @@
+.cardLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: right;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(3);
+  }
+}
+.card-title {
+  text-align: center;
+}
+
+p {
+  display: inline;
+}
